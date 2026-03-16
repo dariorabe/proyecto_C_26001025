@@ -1,26 +1,25 @@
-# Proyecto PHP
+# Conversor de Monedas en C
 
 ## Descripción
-Este proyecto es una aplicación sencilla en PHP que muestra en pantalla el mensaje “Hola mundo, soy Darío Alfredo Rabé Godoy” y además incluye una imagen creada con inteligencia artificial.
+Este proyecto es una aplicación hecha en lenguaje C que sirve para convertir monedas. El programa permite hacer conversiones entre quetzales, dólares estadounidenses y euros, según la opción que elija el usuario.
 
-Lo hice para practicar PHP como lenguaje interpretado, entendiendo que en este caso no es necesario compilar el código para ejecutarlo, sino que se puede correr directamente en el navegador o también desde la terminal.
+Lo hicimos para practicar la lógica de programación en C y también para entender mejor cómo funciona un lenguaje compilado, ya que primero se debe compilar el archivo y después ejecutarlo desde la terminal.
 
 ## Prerrequisitos
-Para ejecutar este proyecto se necesita:
+Para poder ejecutar este proyecto se necesita:
 
-- Tener PHP instalado
-- Tener un servidor local como Apache
-- Tener Visual Studio Code o cualquier editor de código
-- Tener un navegador web o acceso a la terminal
-- Tener la imagen creada con inteligencia artificial dentro de la carpeta del proyecto
+- Tener una máquina virtual o sistema con Linux
+- Tener instalado GCC
+- Tener instalado Visual Studio Code o cualquier editor de código
+- Usar la terminal
 
 ## Pasos para su ejecución
-1. Crear el archivo index.php.
-2. Guardar la imagen creada con inteligencia artificial dentro de la carpeta del proyecto.
-3. Mover la carpeta al servidor web, por ejemplo a /var/www/html/proyecto_php.
-4. Abrir el navegador.
-5. Entrar a http://localhost/proyecto_php.
-6. Verificar que aparezca el mensaje con el nombre del estudiante y la imagen.
+1. Abrir la terminal.
+2. Entrar a la carpeta donde está el archivo conversor.c
+3. Compilar el programa con este comando: gcc conversor.c -o conversor
+4. Ejecutarlo con este comando: ./conversor
+5. Elegir la conversión que se desea realizar.
+6. Escribir la cantidad y ver el resultado en pantalla.
 
 ## Datos del autor
 - Nombre: Darío Alfredo Rabé Godoy
